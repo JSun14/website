@@ -1,0 +1,29 @@
+.toolbar {
+  flex: 1;
+  background: black;
+}
+
+.intro {
+  height: 400px;
+  background-color: #03a9f4;
+}
+
+.logo {
+  height: 65px;
+  width: 65px;
+  text-align: center;
+  margin: auto;
+}
+
+.doge {
+  margin-top: -16px;
+  margin-left: -16px;
+  margin-bottom: -27px;
+  height: 440px;
+  width: 750px;
+}
+
+.whitetext {
+  color: white;
+  flex: 1;
+}
