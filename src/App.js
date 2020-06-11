@@ -16,7 +16,7 @@ function App() {
             <IconButton color="inherit" target="_blank" href="https://github.com/JSun14">
               <GitHubIcon fontSize="large" />
             </IconButton>
-            <img src={logo} className={style.logo} />
+            <img src={logo} className={style.logo} alt="Logo" />
             <IconButton color="inherit" target="_blank" href="https://www.linkedin.com/in/jerry-sun-50b660182/">
               <LinkedInIcon fontSize="large" />
             </IconButton>
@@ -35,7 +35,7 @@ function App() {
           <Grid item xs={7}>
             <Card elevation={0} square={true}>
               <CardContent >
-                <img src={doge} className={style.doge} />
+                <img src={doge} className={style.doge} alt="Doggos" />
               </CardContent>
             </Card>
           </Grid>
