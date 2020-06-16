@@ -1,6 +1,6 @@
 .toolbar {
   flex: 1;
-  background: black;
+  background: #424242;
 }
 
 .intro {
@@ -15,15 +15,42 @@
   margin: auto;
 }
 
-.doge {
-  margin-top: -16px;
-  margin-left: -16px;
-  margin-bottom: -27px;
-  height: 440px;
-  width: 750px;
+.cover{
+  width: 100%;
+  height: 100%;
+}
+
+.explanations {
+  flex: 1;
 }
 
 .whitetext {
   color: white;
   flex: 1;
+}
+
+.posts{
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 360px;
+}
+
+.dialog {
+  width: 100%;
+
+}
+.scroll {
+  overflow-x: hidden;
+
+}
+.root {
+  padding: 20px;
+}
+.preview {
+  padding: 100px;
+}
+
+.button {
+  display: center;
 }
