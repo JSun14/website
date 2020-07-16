@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5e94327d3fb84d10b14aae0af154b69b",
+    "revision": "637c9cc12320b548b98b7061139b8a3c",
     "url": "/website/index.html"
   },
   {
-    "revision": "61b8a6f26bdf1fefee2d",
-    "url": "/website/static/css/main.999e384d.chunk.css"
+    "revision": "e5f19b42332ed87774a3",
+    "url": "/website/static/css/main.8272a975.chunk.css"
   },
   {
     "revision": "31939cf777a25c8ab1c9",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/js/2.ff0e004a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "61b8a6f26bdf1fefee2d",
-    "url": "/website/static/js/main.c93ab163.chunk.js"
+    "revision": "e5f19b42332ed87774a3",
+    "url": "/website/static/js/main.4e217dff.chunk.js"
   },
   {
     "revision": "b56fd8800aeaade8aa1a",
@@ -58,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c039e329848155bf64c07d754a2cb482",
     "url": "/website/static/media/energy.c039e329.png"
-  },
-  {
-    "revision": "179efdddb6439d094742bcd33f50c030",
-    "url": "/website/static/media/logo.179efddd.png"
   },
   {
     "revision": "4befbdb2579b175c624fb3a160ac5c97",
