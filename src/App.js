@@ -14,7 +14,9 @@ import mcmpaper from './static/MCM.pdf';
 import cmcm from './static/CMCM.png';
 import cmcmpaper from './static/CMCM.pdf';
 import canada from './static/canada.png';
-import cds from './static/CDS.png'
+import cds from './static/CDS.png';
+import resume from './static/Resume23.pdf';
+import DescriptionRoundedIcon from '@material-ui/icons/DescriptionRounded';
 const projects = [
   {
     title: 'Energy Usage Over The Years',
@@ -86,24 +88,32 @@ function App() {
             <IconButton color="inherit" target="_blank" href="https://github.com/JSun14">
               <GitHubIcon fontSize="large" />
             </IconButton>
-            <img src={logo} className={style.logo} alt="Logo" />
             <IconButton color="inherit" target="_blank" href="https://www.linkedin.com/in/jerry-sun-50b660182/">
               <LinkedInIcon fontSize="large" />
             </IconButton>
+            <IconButton color="inherit" target="_blank" href={resume}>
+              <DescriptionRoundedIcon fontSize="large" />
+            </IconButton>
+            <img src={logo} className={style.logo} alt="Logo" />
+
           </Toolbar>
         </AppBar>
         <main>
-          <Grid container>
-            <Grid item xs={5} >
+          <Grid container className={style.feature}>
+            <Grid item xs={6} >
               <Card elevation={0} square={true} >
                 <CardContent className={style.intro}>
-                  <Typography variant="h4" className={style.whitetext}>
-                    <b>Hi I'm Jerry. Welcome to my website. It's currently under development.</b>
+                  <Typography variant="h6" className={style.whitetext}>
+                    <b>Hi I'm Jerry. I am currently a rising sophomore attending Cornell University.
+                    I am interested in data science and software engineering career opportunities.
+                    On the side, I like to keep up with politics and public policy.
+                    Below you'll find some projects that I've done over the years.
+                      If you click <i>here</i> you'll find some personal thoughts about random things I think about. </b>
                   </Typography>
                 </CardContent>
               </Card>
             </Grid>
-            <Grid item className={style.explanations} xs={7}>
+            <Grid item xs={6}>
               <img src={doge} className={style.cover} />
             </Grid>
           </Grid>
@@ -114,7 +124,7 @@ function App() {
           </Grid>
         </main>
       </div>
-    </React.Fragment>
+    </React.Fragment >
   );
 }
 
