@@ -34,10 +34,12 @@ export default function Project(props) {
           <div>
             <img className={style.dialog} src={post.image} />
             <Divider />
-            <Typography>{post.description}</Typography>
-            <Button className={style.button} variant="outlined" size="small" target="_blank" disable elevation href={post.link}>
-              Click to view Source Material
+            <div className={style.details}>
+              <Typography>{post.description}</Typography>
+              <Button variant="outlined" size="small" target="_blank" disable elevation href={post.link}>
+                Click to view Source
           </Button>
+            </div>
           </div>
         </Dialog>
         <Divider />

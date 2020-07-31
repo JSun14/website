@@ -39,7 +39,6 @@
 .scroll {
   overflow-x: hidden;
   overflow-y: hidden;
-
 }
 .root {
   padding: 20px;
@@ -48,6 +47,7 @@
   padding: 100px;
 }
 
-.button {
-  display: center;
+.details {
+  padding: 15px;
+  text-align: center;
 }
