@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://jsun14.github.io/",
   "dependencies": {
     "@material-ui/core": "^4.10.1",
