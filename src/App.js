@@ -16,6 +16,7 @@ import cmcmpaper from './static/CMCM.pdf';
 import canada from './static/canada.png';
 import cds from './static/CDS.png';
 import resume from './static/Resume23.pdf';
+import hackathon from './static/hosphacks.jpg';
 import DescriptionRoundedIcon from '@material-ui/icons/DescriptionRounded';
 const projects = [
   {
@@ -76,6 +77,14 @@ const projects = [
     description: 'This is one of our founding purposes as the Education subteam for CDS. We host this class every semester in the hopes of just introducing machine learning topics and data science to anyone who wants to take a low commitment class just to get their feet wet. We review and edit slides/curriculum and hold office hours with worrkshops interspersed throughout the semester. ',
     link: "https://cornelldatascience.github.io/info1998/",
   },
+
+  {
+    title: 'Hospitality Hackathon',
+    summary: 'This was a hackathon centered around helping Hilton to improve their hospitality. My team (L\'Hospitality) won 1st place for our category as well as the grand prize award.',
+    image: hackathon,
+    description: 'Shoutout to my teammates Rachel Zhou and Max Li. My teammates and I gained valuable insight from a former Cornell Hotelie and alumni who was at Hilton. Our solution focused on alleviating the issue of staff injuries resulting from cleaning too many rooms in a short time span through optimized clustering of guests as well as location tracking permissions via the Hilton Honors App which would also provide travelers a better night\'s sleep.',
+    link: 'https://news.cornell.edu/stories/2019/10/hackathon-merges-data-savvy-passion-hospitality',
+  }
 ]
 
 
