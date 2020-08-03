@@ -116,7 +116,7 @@ function App() {
                     <b>Hi I'm Jerry. I am currently a sophomore attending Cornell University.
                     I am interested in data science/analytics and software engineering career opportunities.
                     On the side, I like to keep up with politics and public policy.
-                    Below you'll find some projects that I've done over the years.
+                    
                       </b>
                   </Typography>
                 </CardContent>
