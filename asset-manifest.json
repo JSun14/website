@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cf62dc3.chunk.css",
-    "main.js": "/static/js/main.c5e32334.chunk.js",
-    "main.js.map": "/static/js/main.c5e32334.chunk.js.map",
+    "main.css": "/static/css/main.40189aa7.chunk.css",
+    "main.js": "/static/js/main.1d474693.chunk.js",
+    "main.js.map": "/static/js/main.1d474693.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.94a6af97.js",
     "runtime-main.js.map": "/static/js/runtime-main.94a6af97.js.map",
-    "static/js/2.baee0fb0.chunk.js": "/static/js/2.baee0fb0.chunk.js",
-    "static/js/2.baee0fb0.chunk.js.map": "/static/js/2.baee0fb0.chunk.js.map",
+    "static/js/2.a00fd08c.chunk.js": "/static/js/2.a00fd08c.chunk.js",
+    "static/js/2.a00fd08c.chunk.js.map": "/static/js/2.a00fd08c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.54be3860041c2d113d2a80f6239573ee.js": "/precache-manifest.54be3860041c2d113d2a80f6239573ee.js",
+    "precache-manifest.85ab67d6856f622ebdd626c8110c2776.js": "/precache-manifest.85ab67d6856f622ebdd626c8110c2776.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.2cf62dc3.chunk.css.map": "/static/css/main.2cf62dc3.chunk.css.map",
-    "static/js/2.baee0fb0.chunk.js.LICENSE.txt": "/static/js/2.baee0fb0.chunk.js.LICENSE.txt",
+    "static/css/main.40189aa7.chunk.css.map": "/static/css/main.40189aa7.chunk.css.map",
+    "static/js/2.a00fd08c.chunk.js.LICENSE.txt": "/static/js/2.a00fd08c.chunk.js.LICENSE.txt",
     "static/media/CDS.png": "/static/media/CDS.94f24f59.png",
     "static/media/CMCM.pdf": "/static/media/CMCM.57e16903.pdf",
     "static/media/CMCM.png": "/static/media/CMCM.efe9a613.png",
     "static/media/MCM.png": "/static/media/MCM.6e4d1ae0.png",
     "static/media/MCM.pdf": "/static/media/MCM.f6c00a2f.pdf",
-    "static/media/Resume23.pdf": "/static/media/Resume23.e2205f14.pdf",
+    "static/media/Resume23.pdf": "/static/media/Resume23.a82c126f.pdf",
     "static/media/canada.png": "/static/media/canada.d84d7c9a.png",
+    "static/media/covidinsights.png": "/static/media/covidinsights.f553f25a.png",
     "static/media/doge.jpg": "/static/media/doge.de71323f.jpg",
+    "static/media/electionprediction.png": "/static/media/electionprediction.7e51798e.png",
     "static/media/energy.png": "/static/media/energy.c039e329.png",
     "static/media/hosphacks.jpg": "/static/media/hosphacks.8f1e1cf1.jpg",
     "static/media/oh-online.png": "/static/media/oh-online.4befbdb2.png",
@@ -27,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.94a6af97.js",
-    "static/js/2.baee0fb0.chunk.js",
-    "static/css/main.2cf62dc3.chunk.css",
-    "static/js/main.c5e32334.chunk.js"
+    "static/js/2.a00fd08c.chunk.js",
+    "static/css/main.40189aa7.chunk.css",
+    "static/js/main.1d474693.chunk.js"
   ]
 }
