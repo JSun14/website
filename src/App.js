@@ -2,6 +2,7 @@ import React from 'react';
 import { Typography, Toolbar, AppBar, CardMedia, IconButton, Card, CardContent, Grid } from '@material-ui/core';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import MailIcon from '@material-ui/icons/Mail';
 import Project from './projects.js';
 import style from './styling.module.css';
 import logo from './static/logo.png';
@@ -17,8 +18,24 @@ import canada from './static/canada.png';
 import cds from './static/CDS.png';
 import resume from './static/Resume23.pdf';
 import hackathon from './static/hosphacks.jpg';
+import covidinsights from './static/covidinsights.png';
+import kaggle from './static/electionprediction.png';
 import DescriptionRoundedIcon from '@material-ui/icons/DescriptionRounded';
 const projects = [
+  {
+    title: 'Kaggle Competition: Predicting the 2016 Election',
+    summary: 'Final project for CS 4780 Intro to Machine Learning. 4th Place with 86% accuracy when predicting by counties.',
+    image: kaggle,
+    description: 'We utilized SVM, KNN, and Deep Neural Network combined with Linear Classifier models for this project. Our SVM and KNN models with basic and generic features from the given dataset performed moderately well with accuracies up to 72% and 69% respectively. The DNN and Linear Classifier combined model performed with up to 86% accuracy. We also created a separate standard feed forward Neura Network that achieved similar accuracies but with much higer variance, so we stuck with the other model as our primary submission.',
+    link: "https://github.com/JSun14/election-county-prediction",
+  },
+  {
+    title: 'Covid-19 Analysis',
+    summary: 'Final paper written for ENGRD 2700 Basic Probability and Statistics. Used Python (specifically pandas and matplotlib) to conduct analysis on publicly available data',
+    image: covidinsights,
+    description: 'Found results that validate various circulated hypotheses and assumptions about the virality, lethality, and public behavior with respect to the virus. Performed a case study analysis between Ohio, Virginia, Washington, and Wyoming due to their different major industries that contribute to their GDP, population sizes, urban to rural ratio, public policy, as well as their population demographics.',
+    link: "https://github.com/JSun14/CovidInsights",
+  },
   {
     title: 'Repository for Data Science Tutorials',
     summary: 'Part of our outreach program for Cornell Data Science where we make tutorials for Data Science Beginners',
@@ -92,19 +109,21 @@ function App() {
   return (
     <React.Fragment>
       <div className={style.scroll}>
-        <AppBar className={style.toolbar} position='relative'>
-          <Toolbar className={style.toolbar}>
-            <IconButton color="inherit" target="_blank" href="https://github.com/JSun14">
+        <AppBar style={{ background: '#424242' }} className={style.toolbar} position='relative'>
+          <Toolbar >
+            <IconButton edge="start" color="inherit" target="_blank" href="https://github.com/JSun14">
               <GitHubIcon fontSize="large" />
             </IconButton>
             <IconButton color="inherit" target="_blank" href="https://www.linkedin.com/in/jerry-sun-50b660182/">
               <LinkedInIcon fontSize="large" />
             </IconButton>
+            <img src={logo} className={style.logo} alt="Logo" />
             <IconButton color="inherit" target="_blank" href={resume}>
               <DescriptionRoundedIcon fontSize="large" />
             </IconButton>
-            <img src={logo} className={style.logo} alt="Logo" />
-
+            <IconButton color="inherit" href="mailto:sun.jerry.2000@gmail.com">
+              <MailIcon fontSize="large" />
+            </IconButton>
           </Toolbar>
         </AppBar>
         <main>
@@ -115,8 +134,10 @@ function App() {
                   <Typography variant="h6" className={style.whitetext}>
                     <b>Hi I'm Jerry. I am currently a sophomore attending Cornell University.
                     I am interested in data science/analytics and software engineering career opportunities.
-                    On the side, I like to keep up with politics and public policy.
-                    
+                    I am currently doing research in Professor Fengqi You's group on creaating a Transformer Variational Autoencoder
+                    using NLP and Graph Neural Networks. I am also involved in Cornell Data Science where I help manage the student run
+                    class and create data science tutorials.
+                    On the side, I like to keep up with politics/public policy and sports (mainly basketball and football).
                       </b>
                   </Typography>
                 </CardContent>

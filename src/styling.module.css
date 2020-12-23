@@ -1,6 +1,6 @@
 .toolbar {
   flex: 1;
-  background: #424242;
+  align-items: center;
 }
 
 .intro {
@@ -11,7 +11,6 @@
 .logo {
   height: 65px;
   width: 65px;
-  margin-left: 400px;
 }
 
 .cover{
