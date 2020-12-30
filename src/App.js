@@ -132,12 +132,9 @@ function App() {
               <Card elevation={0} square={true} >
                 <CardContent className={style.intro}>
                   <Typography variant="h6" className={style.whitetext}>
-                    <b>Hi I'm Jerry. I am currently a sophomore attending Cornell University.
-                    I am interested in data science/analytics and software engineering career opportunities.
-                    I am currently doing research in Professor Fengqi You's group on creaating a Transformer Variational Autoencoder
-                    using NLP and Graph Neural Networks. I am also involved in Cornell Data Science where I help manage the student run
+                    <b>Hi I'm Jerry, a sophomore attending Cornell with interests in data science and software engineering career opportunities.
+                    I am currently doing research in Professor Fengqi You's group. I am also involved in Cornell Data Science where I help manage the student run
                     class and create data science tutorials.
-                    On the side, I like to keep up with politics/public policy and sports (mainly basketball and football).
                       </b>
                   </Typography>
                 </CardContent>
